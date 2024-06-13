@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color:#333;
+    padding: 1em 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+h2 {
+    color: #4CAF50;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.dashcam-pick {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.dashcam-pick h3 {
+    margin-top: 0;
+}
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+}
+.button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.dashcam-image {
+width: 100%;
+height: auto;
+max-width: 200px;
+display: block;
+margin: 0 auto;
+}
